@@ -4,17 +4,17 @@
 
 // Working with javascript functions 
 
-function WELCOME_MESSAGE (a, b) {
+function WELCOME_MESSAGE () {
 
     let message = "Welcome to the console, i will be logging out my project here: ";
     console.log(message);
     
-    math = a + b;
-    return math;
+    // math = a + b;
+    // return math;
 
 }
 
-let result = WELCOME_MESSAGE(5, 7);
-console.log(result);
+WELCOME_MESSAGE();
+// console.log(result);
 
 // console.log(message);
